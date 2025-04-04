@@ -1,0 +1,197 @@
+.shippingBox {
+    background: #cf559210;
+    width: 400px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.shippingForm {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.shippingForm h2 {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    letter-spacing: 0.4px;
+}
+
+.shippingInput {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.shippingInput input {
+    width: 100%;
+    margin-top: calc(30px / 2);
+    margin-bottom: calc(30px / 2);
+    border: none;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+}
+
+.shippingInput input:focus {
+    outline: none;
+}
+
+.shippingInput input::placeholder {
+    color: #2f2f2f;
+}
+
+.shippingBtn input {
+    width: 120px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509720;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+
+.countryBox {
+    width: 100%;
+    height: 100%;
+}
+
+.countryBox .heading {
+    margin-top: calc(30px / 2);
+    margin-bottom: calc(30px / 2);
+    width: 100%;
+    border: none;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.countryList {
+    background: #dd509712;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.countryList div {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.countryList div:hover {
+    background: #dd509710;
+}
+
+.countryList::-webkit-scrollbar {
+    width: 10px;
+}
+
+.countryList::-webkit-scrollbar-track {
+    background: #dd509710;
+}
+
+.countryList::-webkit-scrollbar-thumb {
+    background: #dd509725;
+}
+
+.stateBox {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+}
+
+.stateBox .heading {
+    margin-top: calc(30px / 2);
+    margin-bottom:  calc(30px / 2);
+    width: 100%;
+    border: none;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stateList {
+    background: #dd509712;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+}
+
+.stateList div {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stateList div:hover {
+    background: #dd509710;
+}
+
+.stateList::-webkit-scrollbar {
+    width: 10px;
+}
+
+.stateList::-webkit-scrollbar-track {
+    background: #dd509710;
+}
+
+.stateList::-webkit-scrollbar-thumb {
+    background: #dd509725;
+}
+  
+@media screen and (max-width: 600px) {
+    .shippingBox {
+        width: auto;
+        margin: 15px;
+    }
+
+    .shippingForm {
+        padding: 30px 15px;
+    }
+}

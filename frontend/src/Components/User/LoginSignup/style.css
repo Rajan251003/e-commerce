@@ -1,0 +1,236 @@
+.LoginSignUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    min-height: calc(100vh - 110px);
+}
+
+.LoginSignUpBox {
+    width: 400px;
+    height: 550px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1px;
+    background: #cf559210;
+}
+
+.login_signUp_toggle {
+    display: flex;
+    height: 100%;
+    border-bottom: 1px solid #d5629c20;
+}
+
+.login_signUp_toggle p {
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    padding-top: 4px;
+}
+
+.LoginSignUpBox .buttonsBox{
+    position: relative;
+    height: 70px;
+}
+
+.LoginSignUpBox .buttonsBox button {
+    background-color: transparent;
+    height: 0px;
+    width: 50%; 
+    border: none;
+    transition: all 0.5s;
+    border-bottom: 1px solid #b4739325;
+    position: absolute;
+    bottom: 0px;
+}
+
+.loginForm, 
+.signupForm {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.signupForm {
+    transform: translateY(-100%) translateX(-100vmax);
+}
+
+.loginForm div,
+.signupForm div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.loginSubmitBtn {
+    position: absolute;
+    bottom: 120px;
+}
+
+.signupSubmitBtn {
+    position: absolute;
+    bottom: 120px;
+}
+
+.loginEmail input,
+.loginPassword input,
+.signupName input,
+.signupEmail input,
+.signupPassword input,
+.registerImage {
+    width: 100%;
+    margin-top: calc(30px / 2);
+    margin-bottom: calc(30px / 2);
+    font-family: "Roboto", sans-serif;
+}
+ 
+.loginEmail input,
+.loginPassword input,
+.signupName input,
+.signupEmail input,
+.signupPassword input {
+    border: none;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+}
+
+.loginEmail input::placeholder,
+.loginPassword input::placeholder,
+.signupName input::placeholder,
+.signupEmail input::placeholder,
+.signupPassword input::placeholder {
+    color: #2f2f2f;
+}
+
+.loginEmail input:focus,
+.loginPassword input:focus,
+.signupName input:focus,
+.signupEmail input:focus,
+.signupPassword input:focus {
+    outline: none;
+}
+
+.loginSubmitBtn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginSubmitBtn a {
+    color: #252525;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+}
+
+.signupSubmitBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginSubmitBtn input,
+.signupSubmitBtn input {
+    width: 120px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509720;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+
+.registerImage img {
+    min-width: 55px;
+    max-width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: none;
+    margin-right: 10px;
+}
+
+.registerImage {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.registerImage input {
+    display: flex;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: max-content;
+    width: 100%;
+}
+ 
+.registerImage input::file-selector-button {
+    width: 100%;
+    height: 55px;
+    padding-bottom: 2px;
+    z-index: 2;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #252525;
+    background-color: #dd509711;
+    cursor: pointer;
+    border: none;
+    border-radius: 1px;
+    letter-spacing: 0.2px;
+}
+
+.shiftToLeft {
+    transform: translateX(-100%);
+}
+
+.shiftToNeutral {
+    transform: translateX(0%);
+}
+
+.shiftToNeutralForm {
+    transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight {
+    transform: translateX(100%);
+}
+ 
+@media screen and (max-width: 600px) {
+    .LoginSignUpBox {
+        margin: 15px 15px;
+    }
+
+    .loginForm,
+    .signupForm {
+        padding: 15px;
+    }
+}

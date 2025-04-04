@@ -1,0 +1,205 @@
+.noItemCardWrapper {
+    margin-top: 20px;
+}
+
+.noItem {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Caveat';
+    color: #f43397;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.cart {
+    margin: 20px 15px;
+}
+
+.cart .heading h1 {
+    font-family: 'Caveat';
+    color: #f43397;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 3px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.cart .cartBody {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #e0e0e0;
+    overflow: scroll;
+}
+
+.cart .cartBody::-webkit-scrollbar {
+    display: none;
+}
+
+.cart .cartItem {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 100px;
+    gap: 10px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cart .cartItem:last-child {
+    border-bottom: none;
+}
+
+.cartItem .cartCardImage {
+    height: 100px;
+}
+
+.cartItem .cartCardImage img {
+    width: 100%;
+    margin: auto;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cartItem .cartItemCancle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem .cartItemCancle img {
+    height: 16px;
+    cursor: pointer;
+}
+
+.cartItem .cartCardName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem .cartCardName a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f2f2f;
+}
+
+.cartItem .cardItemTotal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem .cardItemTotal h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f2f2f;
+}
+
+.cartItem .addRemoveButtonsCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartItem .addRemoveButtonsCart .addRemoveButtonbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 1px;
+    gap: 10px;
+}
+
+.cartItem .addRemoveButtonsCart .addRemoveButtonbody button {
+    width: 20px;
+    border: none;
+    background-color: transparent;
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.cartItem .addRemoveButtonsCart .addRemoveButtonbody button img {
+    width: 12px;
+}
+
+.cartItem .addRemoveButtonsCart .addRemoveButtonbody h2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2f2f2f;
+    width: 25px;
+    text-align: center;
+}
+
+.cartGrossProfit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #cf559210;
+    gap: 15px;
+    padding: 15px;
+}
+
+.cartGrossProfit .checkOutBtn {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cartGrossProfit .checkOutBtn button{
+    width: 120px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509720;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+
+.totalPayment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.totalPayment div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+
+.totalPayment div h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #252525;
+    letter-spacing: 0.2px;
+}
+
+.totalPayment div h4 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px) {
+    .cart .cartItem {
+        grid-template-columns: 3fr 2fr 3fr 2fr 70px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .cart .cartItem {
+        grid-template-columns: 130px 150px 150px 100px 70px;
+    }
+}

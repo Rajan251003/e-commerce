@@ -1,0 +1,28 @@
+.stepperBody {
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 50px auto auto auto;
+    background: #cf559210;
+}
+
+.stepLebel p,
+.stepLebel span {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.changeIcon svg {
+    fill: #fa6cb5 !important;
+} 
+
+.doNotChange svg {
+    fill: #f4339740 !important;
+}
+
+@media screen and (max-width: 600px) {
+    .stepperBody {
+        margin: 15px 15px auto 15px;
+        width: auto;
+        padding: 30px 15px;
+    }
+}

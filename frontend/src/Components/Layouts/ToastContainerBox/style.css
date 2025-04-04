@@ -1,0 +1,14 @@
+.Toastify__toast-body {
+    font-family: "Roboto", sans-serif !important;
+    font-weight: 400;
+    color: #f43397;
+    background-color: #f4339715;
+    margin: 0;
+    letter-spacing: 0.2px;
+}
+
+.Toastify__toast{
+    box-shadow: none;
+    border: 1px solid #f4339710;
+    padding: 0;
+}

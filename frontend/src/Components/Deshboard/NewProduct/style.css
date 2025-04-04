@@ -1,0 +1,229 @@
+.createProductContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createProductContent {
+    width: 450px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 1px;
+    background: #cf559210;
+    padding: 30px 29px;
+}
+
+.createProductContent form {
+    width: 100%;
+}
+
+.createProductContent form h2 {
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    margin-bottom: 30px;
+}
+
+.createProductContent form .inputField {
+    margin-top: 20px;
+}
+
+.createProductContent form .inputField input{
+    width: 100%;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+    border: none;
+}
+
+.createProductContent form .textareaField {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.createProductContent form .inputField input::placeholder,
+.createProductContent form .textareaField textarea::placeholder {
+    color: #2f2f2f;
+}
+
+.createProductContent form .textareaField textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+    border: none;
+    resize: none;
+}
+
+.createProductContent form input:focus,
+.createProductContent form textarea:focus,
+.createProductContent form select:focus {
+    outline: none;
+}
+
+.textareaField textarea::-webkit-scrollbar {
+    width: 10px;
+}
+
+.textareaField textarea::-webkit-scrollbar-track {
+    background: #dd509710;
+}
+
+.textareaField textarea::-webkit-scrollbar-thumb {
+    background: #dd509725;
+}
+
+#createProductFile {
+    margin-top: 20px;
+}
+
+#createProductFile input {
+    width: 100%;
+}
+
+#createProductFile input::file-selector-button {
+    width: 100%;
+    height: 55px;
+    padding-bottom: 2px;
+    z-index: 2;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #252525;
+    background-color: #dd509711;
+    cursor: pointer;
+    border-radius: 1px;
+    letter-spacing: 0.2px;
+    padding: 0px;
+}
+
+#createProductImage {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#createProductImage .outerBodyImage {
+    object-fit: contain;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#createProductImage .InnerBodyImage {
+    background-color: #f4339715;
+    height: 100px;
+    width: 100%;
+}
+
+#createProductImage .outerBodyImage .InnerBodyImage img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+}
+
+.submitBtnCreateProdcuct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.createProductContent form button {
+    width: 120px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509720;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+
+.categoryBox {
+    width: 100%;
+    height: 100%;
+}
+
+.categoryBox .heading {
+    margin-top: calc(40px / 2);
+    margin-bottom: calc(20px / 2);
+    width: 100%;
+    border: none;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.categoryList {
+    background: #dd509712;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.categoryList div {
+    padding: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.categoryList div:hover {
+    background: #dd509710;
+}
+
+.categoryList::-webkit-scrollbar {
+    width: 10px;
+}
+
+.categoryList::-webkit-scrollbar-track {
+    background: #dd509710;
+}
+
+.categoryList::-webkit-scrollbar-thumb {
+    background: #dd509725;
+}
+
+@media only screen and (max-width: 900px) {
+    .createProductContent {
+        width: 100%;
+        padding: 30px 15px;
+    }    
+}

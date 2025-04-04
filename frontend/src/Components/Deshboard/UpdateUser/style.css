@@ -1,0 +1,101 @@
+.updateUserContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updateUserContent {
+    background: #cf559210;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.updateUserContent form {
+    width: 100%;
+    padding: 30px;
+}
+
+.updateUserForm h2 {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    letter-spacing: 0.4px;
+}
+
+.updateUserForm div {
+    width: 100%;
+}
+
+.updateUserForm div input {
+    width: 100%;
+    margin-top: calc(30px / 2);
+    margin-bottom: calc(30px / 2);
+    border: none;
+    border-radius: 1px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0px 10px;
+    color: #252525;
+    letter-spacing: 0.2px;
+    background: #dd509712;
+}
+
+.updateUserForm div input:focus {
+    outline: none;
+}
+
+.updateUserBtns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.updateUserBtns div {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509715;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.submitBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitUpdateUser {
+    width: 120px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509720;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .updateUserContent {
+        width: 100%;
+    }    
+
+    .updateUserContent form {
+        padding: 30px 15px;
+    }
+}

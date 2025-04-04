@@ -1,0 +1,44 @@
+.homepage {
+    display: flex;
+}
+
+.homepage img {
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productPhotoGrid {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.productPhoto{
+    width: 100%;
+    height: 550px;
+}
+
+.productPhoto a {
+    height: 100%;
+    width: 100%;
+}
+
+.productPhoto a img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .productPhotoGrid {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .productPhotoGrid {
+        grid-template-columns: 1fr 1fr; 
+    }
+}

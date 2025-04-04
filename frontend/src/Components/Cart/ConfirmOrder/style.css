@@ -1,0 +1,153 @@
+.confirmContainer {
+    width: 100vw;
+    max-width: 100%;
+}
+
+.confirmBox {
+    padding: 30px 29px;
+    display: flex;
+    flex-direction: column;
+    background: #cf559210;
+    width: 400px;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.confirmBox h2 {
+    color: #252525;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 15px;
+    letter-spacing: 0.4px;
+}
+
+.confirmshippingAreaBox div {
+    display: flex;
+    margin-top: calc(20px / 2);
+    margin-bottom: calc(20px / 2);
+}
+
+.confirmshippingAreaBox div p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    width: 90px;
+    letter-spacing: 0.2px;
+    color: #252525;
+}
+
+.confirmshippingAreaBox div span {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.2px;
+    color: #252525;
+}
+
+.itemBoxConfirm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.itemBoxConfirm img {
+    width: 90px;
+    height: 100px;
+    padding: 3px;
+    border-radius: 1px;
+    object-fit: contain;
+    background-color: #f4339715;
+}
+
+.itemBoxConfirmContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemConfirmDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 15px;
+}
+
+.itemConfirmDetails h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.itemConfirmDetails h4 span,
+.itemConfirmDetails h4 a {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #252525;
+    margin: 0;
+}
+
+.totalGrossAreaBox div p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.2px;
+    color: #252525;
+}
+
+.totalGrossAreaBox div span {
+    width: 60px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.2px;
+    color: #252525;
+}
+
+.totalGrossAreaBox div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: calc(20px / 2);
+    margin-bottom: calc(20px / 2);
+}
+
+.proceedToPaymentBtn {
+    margin: 20px auto auto auto;
+    height: 50px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 190px;
+    color: #252525;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    background-color: #dd509720;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+}
+
+@media screen and (max-width: 600px) {
+    .confirmBox {
+        width: auto;
+        margin: 15px;
+        padding: 30px 15px;
+    }
+
+    .itemBoxConfirm img {
+        width: 70px;
+        height: 80px;
+    }
+}

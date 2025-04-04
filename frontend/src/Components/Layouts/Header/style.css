@@ -1,0 +1,244 @@
+.header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header .contant {
+    max-width: 1328px;
+    padding: 7px 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContant {
+    min-width: 110px;
+}
+
+.searchBox {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+}
+
+.searchBox form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.searchBox form input {
+    width: 100%;
+    height: 45px;
+    padding: 0px 10px 0px 38px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #87878750;
+    border-radius: 25px;
+    letter-spacing: 0.2px;
+    color: #3e3e3e;
+}
+
+.searchBox form input:focus {
+    outline: none;
+}
+
+#searchIconDiv {
+    display: none;
+}
+
+.searchBox form img {
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    width: 26px;
+}
+
+.header a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header a .logo {
+    font-family: 'Caveat';
+    color: #f43397;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+
+.icons {
+    width: 110px;
+}
+
+.icons ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+}
+
+.iconsBody {
+    margin: auto 7px;
+    height: 43px;
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    background-color: #f4339720;
+}
+
+.icons ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+.icons ul li:last-child {
+    margin-right: 0px;
+    margin-left: 7px;
+}
+
+.icons ul li a svg {
+    font-size: 20px;
+    fill: #f43397 !important;
+}
+
+.userIcon {
+    height: 43px;
+    width: 43px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.categoryHeader {
+    position: sticky;
+    top: 61px;
+    width: 100%;
+    background-color: #ffffff99;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    margin: 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.categoryHeader .contant {
+    padding: 15px 15px;
+    max-width: 1328px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    overflow-x: scroll;
+}
+
+.categoryHeader .contant::-webkit-scrollbar {
+    display: none;
+}
+
+.categoryHeader .contant .item a {
+    font-family: 'Roboto';
+    color: #727272;
+    letter-spacing: 0.2px;
+}
+
+.categoryHeader .contant .item a:hover {
+    color: #f43397;
+}
+
+.searchBoxSmall {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .searchBox {
+        max-width: auto;
+        width: 100%;
+    }
+
+    .searchBox {
+        display: none;
+    }
+
+    .icons {
+        width: auto;
+    }
+
+    #searchIconDiv {
+        display: flex;
+    }
+    
+    #searchIconDiv div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #searchIconDiv div img {
+        cursor: pointer;
+        width: 24px;
+    }
+
+    .searchBoxSmall {
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 60px;
+    }
+    
+    .searchBoxSmall form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .searchBoxSmall form input {
+        width: 100%;
+        height: 45px;
+        padding: 0px 38px 0px 38px;
+        margin: 7px 15px;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid #87878750;
+        border-radius: 25px;
+        letter-spacing: 0.2px;
+    }
+
+    .searchBoxSmall form #searchIcon {
+        position: absolute;
+        top: 18px; 
+        left: 25px;
+        width: 26px;
+    }
+
+    .searchBoxSmall form #closeIcon {
+        position: absolute;
+        top: 22px; 
+        right: 30px;
+        width: 16px;
+        cursor: pointer;
+    }
+    
+    .searchBoxSmall form input:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,41 @@
+.myOrdersPage {
+    padding: 15px 15px;
+}
+
+.myOrdersHeading {
+    text-align: center;
+    font-family: "Caveat", sans-serif;
+    color: #f43397;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 15px;
+    letter-spacing: 0.2px;
+}
+
+.myOrdersTable {
+    border-radius: 1px !important;
+}
+
+.orderLink {
+    color: #4a4a4a;
+}
+
+.greenColor {
+    color: #1d5606;
+}
+
+.redColor {
+    color: #630d0d;
+}
+
+.myOrdersTable .MuiDataGrid-virtualScroller::-webkit-scrollbar {
+    height: 0px;
+}
+
+.myOrdersTable .MuiDataGrid-columnSeparator {
+    display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+    
+}

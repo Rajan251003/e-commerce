@@ -1,0 +1,204 @@
+.noItemWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.productsPageBody {
+    margin: 15px 15px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+}
+
+.productsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.productsBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.paginationBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    height: fit-content;
+    gap: 20px;
+}
+
+.pageItem {
+    list-style: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
+
+.pageItemActive .pageLink {
+    color: #f43397;
+}
+
+.pageItem:first-child {
+    display: none;
+}
+
+.pageItem:nth-child(2) .pageLink {
+    color: #f43397;
+}
+
+.pageItem:last-child {
+    display: none;
+}
+
+.pageItem:nth-last-child(2) .pageLink {
+    color: #f43397;
+}
+
+.pageLink {
+    text-decoration: none;
+    color: black;
+}
+
+.filterBoxMainBody {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.filterBoxMainBody .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.openCategory {
+    color: #f43397;
+}
+
+.filledCheckBox {
+    background-color: #f654a8;
+}
+
+.filterBoxMainBody .heading h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.filterBoxMainBody .heading button {
+    color: #f43397;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.2px;
+}
+
+.filterBoxMainBody .category {
+    padding: 15px;
+}
+
+.filterBoxMainBody .category .categoryHeading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.categoryBorderBottom {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.categoryWrapper {
+    margin-top: 10px;
+}
+
+.filterBoxMainBody .category .categoryHeading h1 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.categoryItem {
+    padding: 8px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.categoryItem .checkBox {
+    height: 15px;
+    width: 15px;
+    border: 1px solid #f4339760;
+    border-radius: 50%;
+}
+
+.categoryItem .itemName {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .productsPageBody {
+        margin: 15px 15px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }    
+
+    .productsBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .productsPageBody {
+        margin: 15px 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+
+    .productsBody {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .productsBody {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,515 @@
+[
+    {
+      "_id": "63b4eeefa8a4cf8396794196",
+      "name": "Aakarsha Ensemble Kurtis",
+      "description": "This kurta is a loose collarless shirt or tunic worn in many regions of South Asia, and is now also worn worldwide. ",
+      "price": 300,
+      "ratings": 4,
+      "images": [
+        {
+          "public_id": "Products/gq2wmbj67hcgucb2144z",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672802572/Products/gq2wmbj67hcgucb2144z.webp",
+          "_id": "63b4f10e61e5a8970d3d0abc"
+        },
+        {
+          "public_id": "Products/a4teg5dmucextvije1ed",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672802573/Products/a4teg5dmucextvije1ed.webp",
+          "_id": "63b4f10e61e5a8970d3d0abd"
+        }
+      ],
+      "category": "Women Ethnic",
+      "subcategory": "Kurtis",
+      "size": "M",
+      "color": "Grey",
+      "stock": 9,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 4,
+          "comment": "The product is very nice but it's kinda thin and the order was late.",
+          "_id": "63b4f995dbbc164646c98b47"
+        }
+      ],
+      "createdAt": "2023-01-04T03:13:51.087Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f1d8f46a9c864e837c1f",
+      "name": "Saree on pista and black color",
+      "description": "This sari is a women's garment from the Indian subcontinent, that consists of an un-stitched stretch of woven fabric arranged over the body as a robe, with one end tied to the waist, while the other end rests over one shoulder as a stole, sometimes baring a part of the midriff.",
+      "price": 517,
+      "ratings": 3,
+      "images": [
+        {
+          "public_id": "Products/undroipxz5mp20vaqih4",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672802772/Products/undroipxz5mp20vaqih4.webp",
+          "_id": "63b4f1d8f46a9c864e837c20"
+        },
+        {
+          "public_id": "Products/tzxwb6nr3h6srzeie92j",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672802773/Products/tzxwb6nr3h6srzeie92j.webp",
+          "_id": "63b4f1d8f46a9c864e837c21"
+        },
+        {
+          "public_id": "Products/mrjxtwyk3frpwa3ivcrw",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672802775/Products/mrjxtwyk3frpwa3ivcrw.webp",
+          "_id": "63b4f1d8f46a9c864e837c22"
+        }
+      ],
+      "category": "Women Western",
+      "subcategory": "Sarees",
+      "size": "FREE SIZE",
+      "color": "Black",
+      "stock": 10,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 3,
+          "comment": "I would like to share my feedback about product it's really amazing with best price thank you my shop.",
+          "_id": "63b4f9c5dbbc164646c98b52"
+        }
+      ],
+      "createdAt": "2023-01-04T03:26:16.191Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f277f46a9c864e837c33",
+      "name": "Kurti on Khadi cotten cloths",
+      "description": "This kurtis cloth is made from cotton, but it may also include silk or wool, which are all spun into yarn on a charkha. It is a versatile fabric that remains cool in summer and warm in winter. To improve its appearance, khadi is sometimes starched to give it a stiffer feel. It is widely accepted in various fashion circles.",
+      "price": 800,
+      "ratings": 5,
+      "images": [
+        {
+          "public_id": "Products/usywjcprd7b8yzvcqwbp",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672802934/Products/usywjcprd7b8yzvcqwbp.webp",
+          "_id": "63b4f277f46a9c864e837c34"
+        }
+      ],
+      "category": "Women Ethnic",
+      "subcategory": "Kurtis",
+      "size": "XL",
+      "color": "Brown",
+      "stock": 10,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 5,
+          "comment": "So a satisfying product just love its fabric is also awesome.",
+          "_id": "63b4f9dddbbc164646c98b5a"
+        }
+      ],
+      "createdAt": "2023-01-04T03:28:55.491Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f2ecf46a9c864e837c3f",
+      "name": "Versatile Stylish Women",
+      "description": "The Fashion & Heritage Pichora is traditionally hand-made. There are only two colors that are used in the Pichora – red and saffron. They are considered auspicious colors in Indian culture. The red color stands for energy and conjugal life, while the saffron represents all the holy and worldly elements. The combination of these two colors brings in good luck to the bride for her married life ahead. This Odhni is called the Pichora of Rangoli or the Pichora of Rangwali. Married women use it on auspicious occasions such as marriage, festivals, worship-archana.",
+      "price": 410,
+      "ratings": 3,
+      "images": [
+        {
+          "public_id": "Products/dxyx7lctdutrymkayt3l",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803049/Products/dxyx7lctdutrymkayt3l.webp",
+          "_id": "63b4f2ecf46a9c864e837c40"
+        },
+        {
+          "public_id": "Products/iabsb5q7jpls4q7nnhhr",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803051/Products/iabsb5q7jpls4q7nnhhr.webp",
+          "_id": "63b4f2ecf46a9c864e837c41"
+        }
+      ],
+      "category": "Women Ethnic",
+      "subcategory": "Dupattas",
+      "size": "FREE SIZE",
+      "color": "Maroon",
+      "stock": 8,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 3,
+          "comment": "Dupatta bahut achhi h delivery bhi on time ho gyi mujhe bahut psand thi.",
+          "_id": "63b4fa1fdbbc164646c98b63"
+        }
+      ],
+      "createdAt": "2023-01-04T03:30:52.304Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f36cf46a9c864e837c4a",
+      "name": "Meet New Designers Wedding",
+      "description": "Ghagra choli is a type of ethnic clothing for women from the Indian Subcontinent, notably in the Indian states of Rajasthan, Gujarat, Madhya Pradesh, Uttar Pradesh, Bihar, Haryana, Punjab, Himachal Pradesh, Uttarakhand, Jammu and Kashmir, as well as in the Pakistani provinces of Punjab and Sindh.",
+      "price": 900,
+      "ratings": 5,
+      "images": [
+        {
+          "public_id": "Products/aqzlfezpyex1ztigiu64",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803179/Products/aqzlfezpyex1ztigiu64.webp",
+          "_id": "63b4f36cf46a9c864e837c4b"
+        }
+      ],
+      "category": "Women Ethnic",
+      "subcategory": "Lehengas",
+      "size": "FREE SIZE",
+      "color": "Black",
+      "stock": 15,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 5,
+          "comment": "Superb choli Awesome color As per photo same design same color All women have to buy this saree.",
+          "_id": "63b4fa50dbbc164646c98b6e"
+        }
+      ],
+      "createdAt": "2023-01-04T03:33:00.433Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f3eff46a9c864e837c5c",
+      "name": "Meshi shirt for men styles",
+      "description": "This shirt is a cloth garment for the upper body. Originally an undergarment worn exclusively by men, it has become, in American English, a catch-all term for a broad variety of upper-body garments and undergarments.",
+      "price": 322,
+      "ratings": 5,
+      "images": [
+        {
+          "public_id": "Products/riygmmkr0dw5v970sums",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803307/Products/riygmmkr0dw5v970sums.webp",
+          "_id": "63b4f3eff46a9c864e837c5d"
+        },
+        {
+          "public_id": "Products/qfrrxowr4grdnepgryid",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803309/Products/qfrrxowr4grdnepgryid.webp",
+          "_id": "63b4f3eff46a9c864e837c5e"
+        },
+        {
+          "public_id": "Products/pzdu3gdigahlaj3gkjs4",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803310/Products/pzdu3gdigahlaj3gkjs4.webp",
+          "_id": "63b4f3eff46a9c864e837c5f"
+        }
+      ],
+      "category": "Men",
+      "subcategory": "Shirts",
+      "size": "M",
+      "color": "Maroon",
+      "stock": 23,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 5,
+          "comment": "Osm product 😍jst wow, go for it 👍🏻",
+          "_id": "63b4fa68dbbc164646c98b76"
+        }
+      ],
+      "createdAt": "2023-01-04T03:35:11.202Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f4a27c3a560da3b2f7ea",
+      "name": "Thermos with Lid Insulated Travel",
+      "description": "Thermos Flask with Lid Insulated Travel Tea and Coffee Mug Portable Thermal Cup Stainless Steel Vacuum Insulated Tumbler Cup for Hot & Cold Drinks ( 400 ML )",
+      "price": 1100,
+      "ratings": 2,
+      "images": [
+        {
+          "public_id": "Products/wvmh87wjylhdn58b2mjx",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803486/Products/wvmh87wjylhdn58b2mjx.webp",
+          "_id": "63b4f4a27c3a560da3b2f7eb"
+        },
+        {
+          "public_id": "Products/vitghopdqsicahhudeo9",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803488/Products/vitghopdqsicahhudeo9.webp",
+          "_id": "63b4f4a27c3a560da3b2f7ec"
+        },
+        {
+          "public_id": "Products/e65acfolm4tj3swn6r6q",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803489/Products/e65acfolm4tj3swn6r6q.webp",
+          "_id": "63b4f4a27c3a560da3b2f7ed"
+        }
+      ],
+      "category": "Kitchen",
+      "subcategory": "Kitchen",
+      "size": "FREE SIZE",
+      "color": "Grey",
+      "stock": 3,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 2,
+          "comment": "It is some faults that I never think of.",
+          "_id": "63b4faacdbbc164646c98b7e"
+        }
+      ],
+      "createdAt": "2023-01-04T03:38:10.680Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f5107c3a560da3b2f7fe",
+      "name": "New Stylish and Good Look Backpack",
+      "description": "Sana Enterprises For all the women who value the firework in them, this backpack is the perfect emblem. Crafted under proficient it is made of unmatched quality leatherette. Carry it with your colorful western look or the vintage traditional to give a new feature to styling.",
+      "price": 785,
+      "ratings": 1,
+      "images": [
+        {
+          "public_id": "Products/cavpueegtbskiybpmkmx",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803596/Products/cavpueegtbskiybpmkmx.webp",
+          "_id": "63b4f5107c3a560da3b2f7ff"
+        },
+        {
+          "public_id": "Products/flmfv1leyvrmht4yubwy",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803598/Products/flmfv1leyvrmht4yubwy.webp",
+          "_id": "63b4f5107c3a560da3b2f800"
+        },
+        {
+          "public_id": "Products/ewuy4hl4w0go18elsmbz",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803599/Products/ewuy4hl4w0go18elsmbz.webp",
+          "_id": "63b4f5107c3a560da3b2f801"
+        }
+      ],
+      "category": "Bags",
+      "subcategory": "Kitchen",
+      "size": "FREE SIZE",
+      "color": "Olive",
+      "stock": 7,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 1,
+          "comment": "nononononnononoo",
+          "_id": "63b4fac6dbbc164646c98b86"
+        }
+      ],
+      "createdAt": "2023-01-04T03:40:00.469Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f5a47c3a560da3b2f80a",
+      "name": "Realme 5 / 5s / 5i plain transparent cover",
+      "description": "Slim and Form Fitted design. Beautiful and Tough. Use this case to reduce the chance of signal loss. Durability and Protection without being overly bulky. Prevents from dust and damage. Shock absorbent and shatterproof. Complete access to all features of the device including microphone, speaker, camera and all buttons. Enhance the appearance of the overall phone. Advance shock absorption protection from drops and bumps. Quick and easy way to change your handsets appearance.",
+      "price": 150,
+      "ratings": 1,
+      "images": [
+        {
+          "public_id": "Products/esjfrww5xpgsbdwya0ga",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803746/Products/esjfrww5xpgsbdwya0ga.webp",
+          "_id": "63b4f5a47c3a560da3b2f80b"
+        },
+        {
+          "public_id": "Products/ufxy0q2wnjrbuax5ohqp",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803747/Products/ufxy0q2wnjrbuax5ohqp.webp",
+          "_id": "63b4f5a47c3a560da3b2f80c"
+        }
+      ],
+      "category": "Electronics",
+      "subcategory": "Electronics",
+      "size": "FREE SIZE",
+      "color": "White",
+      "stock": 0,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 1,
+          "comment": "bad cover some days after I saw scratch in my cover.",
+          "_id": "63b4fb00dbbc164646c98b91"
+        }
+      ],
+      "createdAt": "2023-01-04T03:42:28.252Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f6367c3a560da3b2f821",
+      "name": "Kundan chokar necklace jewellery set",
+      "description": "A perfect gift on the occasions like Wedding, Valentines, Birthdays etc. For Girls, Women, Wife or Girlfriend STYLING TIP : Wear it with a suit, saree or lehenga for an ethnic yet classy look. MATERIAL: Environmental friendly brass base jewellery with top quality genuine plating, world-class craftsmanship, studded with kundan. Our collection make people remember not only the jewellery itself, but also the woman who wears that jewellery. JEWELLERY CARE: Keep the jewellery away from direct heat, water, perfumes, deodorants and other strong chemicals as they may react with the metal or plating. After use wipe the jewellery with dry tissue or cloth and store the jewellery in a storage box or a cloth pouch to retain its shine. THE SET CONTAIN: 1. Necklace 2. Pair earring 3. Mangtika",
+      "price": 197,
+      "ratings": 5,
+      "images": [
+        {
+          "public_id": "Products/mbc0yycqs17loweosvnj",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803891/Products/mbc0yycqs17loweosvnj.webp",
+          "_id": "63b4f6367c3a560da3b2f822"
+        },
+        {
+          "public_id": "Products/bey3l5wi3adniin88cpd",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803892/Products/bey3l5wi3adniin88cpd.webp",
+          "_id": "63b4f6367c3a560da3b2f823"
+        },
+        {
+          "public_id": "Products/yhlpifawl1efwphqjgds",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803893/Products/yhlpifawl1efwphqjgds.webp",
+          "_id": "63b4f6367c3a560da3b2f824"
+        }
+      ],
+      "category": "Jewellery",
+      "subcategory": "Jewellery",
+      "size": "FREE SIZE",
+      "color": "Multicolor",
+      "stock": 10,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 5,
+          "comment": "when I wear this that time so looking good. You should buy this.",
+          "_id": "63b4fb29dbbc164646c98b9f"
+        }
+      ],
+      "createdAt": "2023-01-04T03:44:54.583Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f6837c3a560da3b2f82f",
+      "name": "Black Printed Sneakers For Men",
+      "description": "This shoe is an item of footwear intended to protect and comfort the human foot. They are often worn with a sock. Shoes are also used as an item of decoration and fashion. The design of shoes has varied enormously through time and from culture to culture, with form originally being tied to function.",
+      "price": 347,
+      "ratings": 3,
+      "images": [
+        {
+          "public_id": "Products/zqkvpvoic8fblzd3jtff",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672803970/Products/zqkvpvoic8fblzd3jtff.webp",
+          "_id": "63b4f6837c3a560da3b2f830"
+        }
+      ],
+      "category": "Footwear",
+      "subcategory": "Footware",
+      "size": "S",
+      "color": "Black",
+      "stock": 1,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 3,
+          "comment": "Shoes are for parties but not at all.",
+          "_id": "63b4fb4adbbc164646c98bac"
+        }
+      ],
+      "createdAt": "2023-01-04T03:46:11.485Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f6db7c3a560da3b2f839",
+      "name": "Make up me and be beautiful",
+      "description": "Fit-me Foundation| Fit-me Compact| Concealer| Foundation Brush| Loose Powder| Makeup Kit| Makeup Combo| Face Makeup Combo",
+      "price": 1444,
+      "ratings": 4,
+      "images": [
+        {
+          "public_id": "Products/hcfnwikdobwyex47wwfn",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672804058/Products/hcfnwikdobwyex47wwfn.webp",
+          "_id": "63b4f6db7c3a560da3b2f83a"
+        }
+      ],
+      "category": "Beauty",
+      "subcategory": "Beauty",
+      "size": "FREE SIZE",
+      "color": "Multicolor",
+      "stock": 6,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 4,
+          "comment": "Good make up forever for me.",
+          "_id": "63b4fb5ddbbc164646c98bb7"
+        }
+      ],
+      "createdAt": "2023-01-04T03:47:39.096Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b4f73ae43421c9fc67d24b",
+      "name": "Beautiful Polycotton Printed Double Bedsheet",
+      "description": "3D Double Bedsheet Super Soft Comfort - Our special range of double bed sheets will not just make your home feel so very cosy, but it's guaranteed to make every nap a special one, thanks to a super-soft feel that offers the ultimate in comfort.",
+      "price": 264,
+      "ratings": 4,
+      "images": [
+        {
+          "public_id": "Products/lmonycz5s92vc00zypbm",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672804153/Products/lmonycz5s92vc00zypbm.webp",
+          "_id": "63b4f73ae43421c9fc67d24c"
+        }
+      ],
+      "category": "Home",
+      "subcategory": "Home",
+      "size": "FREE SIZE",
+      "color": "Multicolor",
+      "stock": 11,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 4,
+          "comment": "The cloth was very good",
+          "_id": "63b4fb9cdbbc164646c98bc0"
+        }
+      ],
+      "createdAt": "2023-01-04T03:49:14.325Z",
+      "__v": 1
+    },
+    {
+      "_id": "63b6f3c57d5a9cdcc1c69052",
+      "name": "Apple Watch",
+      "description": "It's the ultimate device for a healthy life. Apple Watch can do what your other devices can't because it's on your wrist. When you wear it, you get a fitness partner that measures all the ways you move, meaningful health insights and a connection to the people and things you care about most.",
+      "price": 1200,
+      "ratings": 5,
+      "images": [
+        {
+          "public_id": "Products/v7ekihawtxmh0xl55cod",
+          "url": "https://res.cloudinary.com/my-market/image/upload/v1672934340/Products/v7ekihawtxmh0xl55cod.jpg",
+          "_id": "63b6f3c57d5a9cdcc1c69053"
+        }
+      ],
+      "category": "Accessories",
+      "subcategory": "Electronics",
+      "size": "FREE SIZE",
+      "color": "White",
+      "stock": 7,
+      "numOfReviews": 1,
+      "user": "62e02b82584f9d2bc1dd2b44",
+      "reviews": [
+        {
+          "user": "62e02b82584f9d2bc1dd2b44",
+          "name": "Prince Khunt",
+          "rating": 5,
+          "comment": "Ultimate good product by apple.",
+          "_id": "63b6f4087d5a9cdcc1c69069"
+        }
+      ],
+      "createdAt": "2023-01-05T15:59:01.354Z",
+      "__v": 1
+    }
+]
