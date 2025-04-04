@@ -9,7 +9,7 @@ const Footer = () => {
         <Link to="/">
           <div className='logo'>My&nbsp;Shop</div>
         </Link>
-        <div className='rides'>© 2023 My Shop All rights reserved.</div>
+        <div className='rides'>© 2025 My Shop All rights reserved.</div>
       </div>
     </>
   )
